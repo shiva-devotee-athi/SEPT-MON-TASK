@@ -1,0 +1,38 @@
+div{
+    position: relative;
+  }
+
+  #stage{
+    background: #ccc;
+    height: 400px;
+    position: relative;
+    width: 1200px;
+  }
+  #page_nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+  }
+  #page_nav li a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  input[type="text"]{
+    width: 30px;
+  }
+  #page_info{
+    display: block;
+    border: solid #ccc;
+    margin: 5px;
+    padding: 5px;
+  }
+  #curr_page{
+    font-weight: bold;
+  }
+  #page_nav{
+    border: solid #ccc;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  }
